@@ -1,5 +1,7 @@
 # react
 
+react is an awesome JavaScript library for building user interfaces.
+
 An npm package to get you immediate access to [React](https://facebook.github.io/react/),
 without also requiring the JSX transformer. This is especially useful for cases where you
 want to [`browserify`](https://github.com/substack/node-browserify) your module using
@@ -12,12 +14,12 @@ To use React in production mode, set the environment variable `NODE_ENV` to `pro
 ## Example Usage
 
 ```js
-var React = require('react');
+var React = require("react");
 
 // Addons are in separate packages:
-var createFragment = require('react-addons-create-fragment');
-var immutabilityHelpers = require('react-addons-update');
-var CSSTransitionGroup = require('react-addons-css-transition-group');
+var createFragment = require("react-addons-create-fragment");
+var immutabilityHelpers = require("react-addons-update");
+var CSSTransitionGroup = require("react-addons-css-transition-group");
 ```
 
 For a complete list of addons visit the [addons documentation page](https://facebook.github.io/react/docs/addons.html).
